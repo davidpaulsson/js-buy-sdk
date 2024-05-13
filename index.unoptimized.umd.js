@@ -4246,24 +4246,12 @@ function query$12(client) {
       paymentDue.add("amount");
       paymentDue.add("currencyCode");
     });
-    root.add("paymentDue", {
-      alias: "paymentDueV2"
-    }, function (paymentDue) {
-      paymentDue.add("amount");
-      paymentDue.add("currencyCode");
-    });
     root.add("webUrl");
     root.add("orderStatusUrl");
     root.add("taxExempt");
     root.add("taxesIncluded");
     root.add("currencyCode");
     root.add("totalTax", function (totalTax) {
-      totalTax.add("amount");
-      totalTax.add("currencyCode");
-    });
-    root.add("totalTax", {
-      alias: "totalTaxV2"
-    }, function (totalTax) {
       totalTax.add("amount");
       totalTax.add("currencyCode");
     });
@@ -4275,19 +4263,7 @@ function query$12(client) {
       subtotalPrice.add("amount");
       subtotalPrice.add("currencyCode");
     });
-    root.add("subtotalPrice", {
-      alias: "subtotalPriceV2"
-    }, function (subtotalPrice) {
-      subtotalPrice.add("amount");
-      subtotalPrice.add("currencyCode");
-    });
     root.add("totalPrice", function (totalPrice) {
-      totalPrice.add("amount");
-      totalPrice.add("currencyCode");
-    });
-    root.add("totalPrice", {
-      alias: "totalPriceV2"
-    }, function (totalPrice) {
       totalPrice.add("amount");
       totalPrice.add("currencyCode");
     });
@@ -4322,12 +4298,6 @@ function query$12(client) {
         price.add("amount");
         price.add("currencyCode");
       });
-      shippingLine.add("price", {
-        alias: "priceV2"
-      }, function (price) {
-        price.add("amount");
-        price.add("currencyCode");
-      });
       shippingLine.add("title");
     });
     root.add("customAttributes", function (customAttributes) {
@@ -4342,19 +4312,7 @@ function query$12(client) {
         subtotalPrice.add("amount");
         subtotalPrice.add("currencyCode");
       });
-      order.add("subtotalPrice", {
-        alias: "subtotalPriceV2"
-      }, function (subtotalPrice) {
-        subtotalPrice.add("amount");
-        subtotalPrice.add("currencyCode");
-      });
       order.add("totalShippingPrice", function (totalShippingPrice) {
-        totalShippingPrice.add("amount");
-        totalShippingPrice.add("currencyCode");
-      });
-      order.add("totalShippingPrice", {
-        alias: "totalShippingPriceV2"
-      }, function (totalShippingPrice) {
         totalShippingPrice.add("amount");
         totalShippingPrice.add("currencyCode");
       });
@@ -4362,30 +4320,12 @@ function query$12(client) {
         totalTax.add("amount");
         totalTax.add("currencyCode");
       });
-      order.add("totalTax", {
-        alias: "totalTaxV2"
-      }, function (totalTax) {
-        totalTax.add("amount");
-        totalTax.add("currencyCode");
-      });
       order.add("totalPrice", function (totalPrice) {
-        totalPrice.add("amount");
-        totalPrice.add("currencyCode");
-      });
-      order.add("totalPrice", {
-        alias: "totalPriceV2"
-      }, function (totalPrice) {
         totalPrice.add("amount");
         totalPrice.add("currencyCode");
       });
       order.add("currencyCode");
       order.add("totalRefunded", function (totalRefunded) {
-        totalRefunded.add("amount");
-        totalRefunded.add("currencyCode");
-      });
-      order.add("totalRefunded", {
-        alias: "totalRefundedV2"
-      }, function (totalRefunded) {
         totalRefunded.add("amount");
         totalRefunded.add("currencyCode");
       });
@@ -4626,24 +4566,12 @@ function query$13(client) {
       paymentDue.add("amount");
       paymentDue.add("currencyCode");
     });
-    root.add("paymentDue", {
-      alias: "paymentDueV2"
-    }, function (paymentDue) {
-      paymentDue.add("amount");
-      paymentDue.add("currencyCode");
-    });
     root.add("webUrl");
     root.add("orderStatusUrl");
     root.add("taxExempt");
     root.add("taxesIncluded");
     root.add("currencyCode");
     root.add("totalTax", function (totalTax) {
-      totalTax.add("amount");
-      totalTax.add("currencyCode");
-    });
-    root.add("totalTax", {
-      alias: "totalTaxV2"
-    }, function (totalTax) {
       totalTax.add("amount");
       totalTax.add("currencyCode");
     });
@@ -4655,19 +4583,7 @@ function query$13(client) {
       subtotalPrice.add("amount");
       subtotalPrice.add("currencyCode");
     });
-    root.add("subtotalPrice", {
-      alias: "subtotalPriceV2"
-    }, function (subtotalPrice) {
-      subtotalPrice.add("amount");
-      subtotalPrice.add("currencyCode");
-    });
     root.add("totalPrice", function (totalPrice) {
-      totalPrice.add("amount");
-      totalPrice.add("currencyCode");
-    });
-    root.add("totalPrice", {
-      alias: "totalPriceV2"
-    }, function (totalPrice) {
       totalPrice.add("amount");
       totalPrice.add("currencyCode");
     });
@@ -4702,12 +4618,6 @@ function query$13(client) {
         price.add("amount");
         price.add("currencyCode");
       });
-      shippingLine.add("price", {
-        alias: "priceV2"
-      }, function (price) {
-        price.add("amount");
-        price.add("currencyCode");
-      });
       shippingLine.add("title");
     });
     root.add("customAttributes", function (customAttributes) {
@@ -4722,19 +4632,7 @@ function query$13(client) {
         subtotalPrice.add("amount");
         subtotalPrice.add("currencyCode");
       });
-      order.add("subtotalPrice", {
-        alias: "subtotalPriceV2"
-      }, function (subtotalPrice) {
-        subtotalPrice.add("amount");
-        subtotalPrice.add("currencyCode");
-      });
       order.add("totalShippingPrice", function (totalShippingPrice) {
-        totalShippingPrice.add("amount");
-        totalShippingPrice.add("currencyCode");
-      });
-      order.add("totalShippingPrice", {
-        alias: "totalShippingPriceV2"
-      }, function (totalShippingPrice) {
         totalShippingPrice.add("amount");
         totalShippingPrice.add("currencyCode");
       });
@@ -4742,30 +4640,12 @@ function query$13(client) {
         totalTax.add("amount");
         totalTax.add("currencyCode");
       });
-      order.add("totalTax", {
-        alias: "totalTaxV2"
-      }, function (totalTax) {
-        totalTax.add("amount");
-        totalTax.add("currencyCode");
-      });
       order.add("totalPrice", function (totalPrice) {
-        totalPrice.add("amount");
-        totalPrice.add("currencyCode");
-      });
-      order.add("totalPrice", {
-        alias: "totalPriceV2"
-      }, function (totalPrice) {
         totalPrice.add("amount");
         totalPrice.add("currencyCode");
       });
       order.add("currencyCode");
       order.add("totalRefunded", function (totalRefunded) {
-        totalRefunded.add("amount");
-        totalRefunded.add("currencyCode");
-      });
-      order.add("totalRefunded", {
-        alias: "totalRefundedV2"
-      }, function (totalRefunded) {
         totalRefunded.add("amount");
         totalRefunded.add("currencyCode");
       });
@@ -5015,24 +4895,12 @@ function query$14(client) {
       paymentDue.add("amount");
       paymentDue.add("currencyCode");
     });
-    root.add("paymentDue", {
-      alias: "paymentDueV2"
-    }, function (paymentDue) {
-      paymentDue.add("amount");
-      paymentDue.add("currencyCode");
-    });
     root.add("webUrl");
     root.add("orderStatusUrl");
     root.add("taxExempt");
     root.add("taxesIncluded");
     root.add("currencyCode");
     root.add("totalTax", function (totalTax) {
-      totalTax.add("amount");
-      totalTax.add("currencyCode");
-    });
-    root.add("totalTax", {
-      alias: "totalTaxV2"
-    }, function (totalTax) {
       totalTax.add("amount");
       totalTax.add("currencyCode");
     });
@@ -5044,19 +4912,7 @@ function query$14(client) {
       subtotalPrice.add("amount");
       subtotalPrice.add("currencyCode");
     });
-    root.add("subtotalPrice", {
-      alias: "subtotalPriceV2"
-    }, function (subtotalPrice) {
-      subtotalPrice.add("amount");
-      subtotalPrice.add("currencyCode");
-    });
     root.add("totalPrice", function (totalPrice) {
-      totalPrice.add("amount");
-      totalPrice.add("currencyCode");
-    });
-    root.add("totalPrice", {
-      alias: "totalPriceV2"
-    }, function (totalPrice) {
       totalPrice.add("amount");
       totalPrice.add("currencyCode");
     });
@@ -5091,12 +4947,6 @@ function query$14(client) {
         price.add("amount");
         price.add("currencyCode");
       });
-      shippingLine.add("price", {
-        alias: "priceV2"
-      }, function (price) {
-        price.add("amount");
-        price.add("currencyCode");
-      });
       shippingLine.add("title");
     });
     root.add("customAttributes", function (customAttributes) {
@@ -5111,19 +4961,7 @@ function query$14(client) {
         subtotalPrice.add("amount");
         subtotalPrice.add("currencyCode");
       });
-      order.add("subtotalPrice", {
-        alias: "subtotalPriceV2"
-      }, function (subtotalPrice) {
-        subtotalPrice.add("amount");
-        subtotalPrice.add("currencyCode");
-      });
       order.add("totalShippingPrice", function (totalShippingPrice) {
-        totalShippingPrice.add("amount");
-        totalShippingPrice.add("currencyCode");
-      });
-      order.add("totalShippingPrice", {
-        alias: "totalShippingPriceV2"
-      }, function (totalShippingPrice) {
         totalShippingPrice.add("amount");
         totalShippingPrice.add("currencyCode");
       });
@@ -5131,30 +4969,12 @@ function query$14(client) {
         totalTax.add("amount");
         totalTax.add("currencyCode");
       });
-      order.add("totalTax", {
-        alias: "totalTaxV2"
-      }, function (totalTax) {
-        totalTax.add("amount");
-        totalTax.add("currencyCode");
-      });
       order.add("totalPrice", function (totalPrice) {
-        totalPrice.add("amount");
-        totalPrice.add("currencyCode");
-      });
-      order.add("totalPrice", {
-        alias: "totalPriceV2"
-      }, function (totalPrice) {
         totalPrice.add("amount");
         totalPrice.add("currencyCode");
       });
       order.add("currencyCode");
       order.add("totalRefunded", function (totalRefunded) {
-        totalRefunded.add("amount");
-        totalRefunded.add("currencyCode");
-      });
-      order.add("totalRefunded", {
-        alias: "totalRefundedV2"
-      }, function (totalRefunded) {
         totalRefunded.add("amount");
         totalRefunded.add("currencyCode");
       });
@@ -5405,24 +5225,12 @@ function query$15(client) {
       paymentDue.add("amount");
       paymentDue.add("currencyCode");
     });
-    root.add("paymentDue", {
-      alias: "paymentDueV2"
-    }, function (paymentDue) {
-      paymentDue.add("amount");
-      paymentDue.add("currencyCode");
-    });
     root.add("webUrl");
     root.add("orderStatusUrl");
     root.add("taxExempt");
     root.add("taxesIncluded");
     root.add("currencyCode");
     root.add("totalTax", function (totalTax) {
-      totalTax.add("amount");
-      totalTax.add("currencyCode");
-    });
-    root.add("totalTax", {
-      alias: "totalTaxV2"
-    }, function (totalTax) {
       totalTax.add("amount");
       totalTax.add("currencyCode");
     });
@@ -5434,19 +5242,7 @@ function query$15(client) {
       subtotalPrice.add("amount");
       subtotalPrice.add("currencyCode");
     });
-    root.add("subtotalPrice", {
-      alias: "subtotalPriceV2"
-    }, function (subtotalPrice) {
-      subtotalPrice.add("amount");
-      subtotalPrice.add("currencyCode");
-    });
     root.add("totalPrice", function (totalPrice) {
-      totalPrice.add("amount");
-      totalPrice.add("currencyCode");
-    });
-    root.add("totalPrice", {
-      alias: "totalPriceV2"
-    }, function (totalPrice) {
       totalPrice.add("amount");
       totalPrice.add("currencyCode");
     });
@@ -5481,12 +5277,6 @@ function query$15(client) {
         price.add("amount");
         price.add("currencyCode");
       });
-      shippingLine.add("price", {
-        alias: "priceV2"
-      }, function (price) {
-        price.add("amount");
-        price.add("currencyCode");
-      });
       shippingLine.add("title");
     });
     root.add("customAttributes", function (customAttributes) {
@@ -5501,19 +5291,7 @@ function query$15(client) {
         subtotalPrice.add("amount");
         subtotalPrice.add("currencyCode");
       });
-      order.add("subtotalPrice", {
-        alias: "subtotalPriceV2"
-      }, function (subtotalPrice) {
-        subtotalPrice.add("amount");
-        subtotalPrice.add("currencyCode");
-      });
       order.add("totalShippingPrice", function (totalShippingPrice) {
-        totalShippingPrice.add("amount");
-        totalShippingPrice.add("currencyCode");
-      });
-      order.add("totalShippingPrice", {
-        alias: "totalShippingPriceV2"
-      }, function (totalShippingPrice) {
         totalShippingPrice.add("amount");
         totalShippingPrice.add("currencyCode");
       });
@@ -5521,30 +5299,12 @@ function query$15(client) {
         totalTax.add("amount");
         totalTax.add("currencyCode");
       });
-      order.add("totalTax", {
-        alias: "totalTaxV2"
-      }, function (totalTax) {
-        totalTax.add("amount");
-        totalTax.add("currencyCode");
-      });
       order.add("totalPrice", function (totalPrice) {
-        totalPrice.add("amount");
-        totalPrice.add("currencyCode");
-      });
-      order.add("totalPrice", {
-        alias: "totalPriceV2"
-      }, function (totalPrice) {
         totalPrice.add("amount");
         totalPrice.add("currencyCode");
       });
       order.add("currencyCode");
       order.add("totalRefunded", function (totalRefunded) {
-        totalRefunded.add("amount");
-        totalRefunded.add("currencyCode");
-      });
-      order.add("totalRefunded", {
-        alias: "totalRefundedV2"
-      }, function (totalRefunded) {
         totalRefunded.add("amount");
         totalRefunded.add("currencyCode");
       });
@@ -5791,24 +5551,12 @@ function query$16(client) {
       paymentDue.add("amount");
       paymentDue.add("currencyCode");
     });
-    root.add("paymentDue", {
-      alias: "paymentDueV2"
-    }, function (paymentDue) {
-      paymentDue.add("amount");
-      paymentDue.add("currencyCode");
-    });
     root.add("webUrl");
     root.add("orderStatusUrl");
     root.add("taxExempt");
     root.add("taxesIncluded");
     root.add("currencyCode");
     root.add("totalTax", function (totalTax) {
-      totalTax.add("amount");
-      totalTax.add("currencyCode");
-    });
-    root.add("totalTax", {
-      alias: "totalTaxV2"
-    }, function (totalTax) {
       totalTax.add("amount");
       totalTax.add("currencyCode");
     });
@@ -5820,19 +5568,7 @@ function query$16(client) {
       subtotalPrice.add("amount");
       subtotalPrice.add("currencyCode");
     });
-    root.add("subtotalPrice", {
-      alias: "subtotalPriceV2"
-    }, function (subtotalPrice) {
-      subtotalPrice.add("amount");
-      subtotalPrice.add("currencyCode");
-    });
     root.add("totalPrice", function (totalPrice) {
-      totalPrice.add("amount");
-      totalPrice.add("currencyCode");
-    });
-    root.add("totalPrice", {
-      alias: "totalPriceV2"
-    }, function (totalPrice) {
       totalPrice.add("amount");
       totalPrice.add("currencyCode");
     });
@@ -5867,12 +5603,6 @@ function query$16(client) {
         price.add("amount");
         price.add("currencyCode");
       });
-      shippingLine.add("price", {
-        alias: "priceV2"
-      }, function (price) {
-        price.add("amount");
-        price.add("currencyCode");
-      });
       shippingLine.add("title");
     });
     root.add("customAttributes", function (customAttributes) {
@@ -5887,19 +5617,7 @@ function query$16(client) {
         subtotalPrice.add("amount");
         subtotalPrice.add("currencyCode");
       });
-      order.add("subtotalPrice", {
-        alias: "subtotalPriceV2"
-      }, function (subtotalPrice) {
-        subtotalPrice.add("amount");
-        subtotalPrice.add("currencyCode");
-      });
       order.add("totalShippingPrice", function (totalShippingPrice) {
-        totalShippingPrice.add("amount");
-        totalShippingPrice.add("currencyCode");
-      });
-      order.add("totalShippingPrice", {
-        alias: "totalShippingPriceV2"
-      }, function (totalShippingPrice) {
         totalShippingPrice.add("amount");
         totalShippingPrice.add("currencyCode");
       });
@@ -5907,30 +5625,12 @@ function query$16(client) {
         totalTax.add("amount");
         totalTax.add("currencyCode");
       });
-      order.add("totalTax", {
-        alias: "totalTaxV2"
-      }, function (totalTax) {
-        totalTax.add("amount");
-        totalTax.add("currencyCode");
-      });
       order.add("totalPrice", function (totalPrice) {
-        totalPrice.add("amount");
-        totalPrice.add("currencyCode");
-      });
-      order.add("totalPrice", {
-        alias: "totalPriceV2"
-      }, function (totalPrice) {
         totalPrice.add("amount");
         totalPrice.add("currencyCode");
       });
       order.add("currencyCode");
       order.add("totalRefunded", function (totalRefunded) {
-        totalRefunded.add("amount");
-        totalRefunded.add("currencyCode");
-      });
-      order.add("totalRefunded", {
-        alias: "totalRefundedV2"
-      }, function (totalRefunded) {
         totalRefunded.add("amount");
         totalRefunded.add("currencyCode");
       });
@@ -6178,24 +5878,12 @@ function query$17(client) {
       paymentDue.add("amount");
       paymentDue.add("currencyCode");
     });
-    root.add("paymentDue", {
-      alias: "paymentDueV2"
-    }, function (paymentDue) {
-      paymentDue.add("amount");
-      paymentDue.add("currencyCode");
-    });
     root.add("webUrl");
     root.add("orderStatusUrl");
     root.add("taxExempt");
     root.add("taxesIncluded");
     root.add("currencyCode");
     root.add("totalTax", function (totalTax) {
-      totalTax.add("amount");
-      totalTax.add("currencyCode");
-    });
-    root.add("totalTax", {
-      alias: "totalTaxV2"
-    }, function (totalTax) {
       totalTax.add("amount");
       totalTax.add("currencyCode");
     });
@@ -6207,19 +5895,7 @@ function query$17(client) {
       subtotalPrice.add("amount");
       subtotalPrice.add("currencyCode");
     });
-    root.add("subtotalPrice", {
-      alias: "subtotalPriceV2"
-    }, function (subtotalPrice) {
-      subtotalPrice.add("amount");
-      subtotalPrice.add("currencyCode");
-    });
     root.add("totalPrice", function (totalPrice) {
-      totalPrice.add("amount");
-      totalPrice.add("currencyCode");
-    });
-    root.add("totalPrice", {
-      alias: "totalPriceV2"
-    }, function (totalPrice) {
       totalPrice.add("amount");
       totalPrice.add("currencyCode");
     });
@@ -6254,12 +5930,6 @@ function query$17(client) {
         price.add("amount");
         price.add("currencyCode");
       });
-      shippingLine.add("price", {
-        alias: "priceV2"
-      }, function (price) {
-        price.add("amount");
-        price.add("currencyCode");
-      });
       shippingLine.add("title");
     });
     root.add("customAttributes", function (customAttributes) {
@@ -6274,19 +5944,7 @@ function query$17(client) {
         subtotalPrice.add("amount");
         subtotalPrice.add("currencyCode");
       });
-      order.add("subtotalPrice", {
-        alias: "subtotalPriceV2"
-      }, function (subtotalPrice) {
-        subtotalPrice.add("amount");
-        subtotalPrice.add("currencyCode");
-      });
       order.add("totalShippingPrice", function (totalShippingPrice) {
-        totalShippingPrice.add("amount");
-        totalShippingPrice.add("currencyCode");
-      });
-      order.add("totalShippingPrice", {
-        alias: "totalShippingPriceV2"
-      }, function (totalShippingPrice) {
         totalShippingPrice.add("amount");
         totalShippingPrice.add("currencyCode");
       });
@@ -6294,30 +5952,12 @@ function query$17(client) {
         totalTax.add("amount");
         totalTax.add("currencyCode");
       });
-      order.add("totalTax", {
-        alias: "totalTaxV2"
-      }, function (totalTax) {
-        totalTax.add("amount");
-        totalTax.add("currencyCode");
-      });
       order.add("totalPrice", function (totalPrice) {
-        totalPrice.add("amount");
-        totalPrice.add("currencyCode");
-      });
-      order.add("totalPrice", {
-        alias: "totalPriceV2"
-      }, function (totalPrice) {
         totalPrice.add("amount");
         totalPrice.add("currencyCode");
       });
       order.add("currencyCode");
       order.add("totalRefunded", function (totalRefunded) {
-        totalRefunded.add("amount");
-        totalRefunded.add("currencyCode");
-      });
-      order.add("totalRefunded", {
-        alias: "totalRefundedV2"
-      }, function (totalRefunded) {
         totalRefunded.add("amount");
         totalRefunded.add("currencyCode");
       });
@@ -6568,24 +6208,12 @@ function query$18(client) {
       paymentDue.add("amount");
       paymentDue.add("currencyCode");
     });
-    root.add("paymentDue", {
-      alias: "paymentDueV2"
-    }, function (paymentDue) {
-      paymentDue.add("amount");
-      paymentDue.add("currencyCode");
-    });
     root.add("webUrl");
     root.add("orderStatusUrl");
     root.add("taxExempt");
     root.add("taxesIncluded");
     root.add("currencyCode");
     root.add("totalTax", function (totalTax) {
-      totalTax.add("amount");
-      totalTax.add("currencyCode");
-    });
-    root.add("totalTax", {
-      alias: "totalTaxV2"
-    }, function (totalTax) {
       totalTax.add("amount");
       totalTax.add("currencyCode");
     });
@@ -6597,19 +6225,7 @@ function query$18(client) {
       subtotalPrice.add("amount");
       subtotalPrice.add("currencyCode");
     });
-    root.add("subtotalPrice", {
-      alias: "subtotalPriceV2"
-    }, function (subtotalPrice) {
-      subtotalPrice.add("amount");
-      subtotalPrice.add("currencyCode");
-    });
     root.add("totalPrice", function (totalPrice) {
-      totalPrice.add("amount");
-      totalPrice.add("currencyCode");
-    });
-    root.add("totalPrice", {
-      alias: "totalPriceV2"
-    }, function (totalPrice) {
       totalPrice.add("amount");
       totalPrice.add("currencyCode");
     });
@@ -6644,12 +6260,6 @@ function query$18(client) {
         price.add("amount");
         price.add("currencyCode");
       });
-      shippingLine.add("price", {
-        alias: "priceV2"
-      }, function (price) {
-        price.add("amount");
-        price.add("currencyCode");
-      });
       shippingLine.add("title");
     });
     root.add("customAttributes", function (customAttributes) {
@@ -6664,19 +6274,7 @@ function query$18(client) {
         subtotalPrice.add("amount");
         subtotalPrice.add("currencyCode");
       });
-      order.add("subtotalPrice", {
-        alias: "subtotalPriceV2"
-      }, function (subtotalPrice) {
-        subtotalPrice.add("amount");
-        subtotalPrice.add("currencyCode");
-      });
       order.add("totalShippingPrice", function (totalShippingPrice) {
-        totalShippingPrice.add("amount");
-        totalShippingPrice.add("currencyCode");
-      });
-      order.add("totalShippingPrice", {
-        alias: "totalShippingPriceV2"
-      }, function (totalShippingPrice) {
         totalShippingPrice.add("amount");
         totalShippingPrice.add("currencyCode");
       });
@@ -6684,30 +6282,12 @@ function query$18(client) {
         totalTax.add("amount");
         totalTax.add("currencyCode");
       });
-      order.add("totalTax", {
-        alias: "totalTaxV2"
-      }, function (totalTax) {
-        totalTax.add("amount");
-        totalTax.add("currencyCode");
-      });
       order.add("totalPrice", function (totalPrice) {
-        totalPrice.add("amount");
-        totalPrice.add("currencyCode");
-      });
-      order.add("totalPrice", {
-        alias: "totalPriceV2"
-      }, function (totalPrice) {
         totalPrice.add("amount");
         totalPrice.add("currencyCode");
       });
       order.add("currencyCode");
       order.add("totalRefunded", function (totalRefunded) {
-        totalRefunded.add("amount");
-        totalRefunded.add("currencyCode");
-      });
-      order.add("totalRefunded", {
-        alias: "totalRefundedV2"
-      }, function (totalRefunded) {
         totalRefunded.add("amount");
         totalRefunded.add("currencyCode");
       });
@@ -6958,24 +6538,12 @@ function query$19(client) {
       paymentDue.add("amount");
       paymentDue.add("currencyCode");
     });
-    root.add("paymentDue", {
-      alias: "paymentDueV2"
-    }, function (paymentDue) {
-      paymentDue.add("amount");
-      paymentDue.add("currencyCode");
-    });
     root.add("webUrl");
     root.add("orderStatusUrl");
     root.add("taxExempt");
     root.add("taxesIncluded");
     root.add("currencyCode");
     root.add("totalTax", function (totalTax) {
-      totalTax.add("amount");
-      totalTax.add("currencyCode");
-    });
-    root.add("totalTax", {
-      alias: "totalTaxV2"
-    }, function (totalTax) {
       totalTax.add("amount");
       totalTax.add("currencyCode");
     });
@@ -6987,19 +6555,7 @@ function query$19(client) {
       subtotalPrice.add("amount");
       subtotalPrice.add("currencyCode");
     });
-    root.add("subtotalPrice", {
-      alias: "subtotalPriceV2"
-    }, function (subtotalPrice) {
-      subtotalPrice.add("amount");
-      subtotalPrice.add("currencyCode");
-    });
     root.add("totalPrice", function (totalPrice) {
-      totalPrice.add("amount");
-      totalPrice.add("currencyCode");
-    });
-    root.add("totalPrice", {
-      alias: "totalPriceV2"
-    }, function (totalPrice) {
       totalPrice.add("amount");
       totalPrice.add("currencyCode");
     });
@@ -7034,12 +6590,6 @@ function query$19(client) {
         price.add("amount");
         price.add("currencyCode");
       });
-      shippingLine.add("price", {
-        alias: "priceV2"
-      }, function (price) {
-        price.add("amount");
-        price.add("currencyCode");
-      });
       shippingLine.add("title");
     });
     root.add("customAttributes", function (customAttributes) {
@@ -7054,19 +6604,7 @@ function query$19(client) {
         subtotalPrice.add("amount");
         subtotalPrice.add("currencyCode");
       });
-      order.add("subtotalPrice", {
-        alias: "subtotalPriceV2"
-      }, function (subtotalPrice) {
-        subtotalPrice.add("amount");
-        subtotalPrice.add("currencyCode");
-      });
       order.add("totalShippingPrice", function (totalShippingPrice) {
-        totalShippingPrice.add("amount");
-        totalShippingPrice.add("currencyCode");
-      });
-      order.add("totalShippingPrice", {
-        alias: "totalShippingPriceV2"
-      }, function (totalShippingPrice) {
         totalShippingPrice.add("amount");
         totalShippingPrice.add("currencyCode");
       });
@@ -7074,30 +6612,12 @@ function query$19(client) {
         totalTax.add("amount");
         totalTax.add("currencyCode");
       });
-      order.add("totalTax", {
-        alias: "totalTaxV2"
-      }, function (totalTax) {
-        totalTax.add("amount");
-        totalTax.add("currencyCode");
-      });
       order.add("totalPrice", function (totalPrice) {
-        totalPrice.add("amount");
-        totalPrice.add("currencyCode");
-      });
-      order.add("totalPrice", {
-        alias: "totalPriceV2"
-      }, function (totalPrice) {
         totalPrice.add("amount");
         totalPrice.add("currencyCode");
       });
       order.add("currencyCode");
       order.add("totalRefunded", function (totalRefunded) {
-        totalRefunded.add("amount");
-        totalRefunded.add("currencyCode");
-      });
-      order.add("totalRefunded", {
-        alias: "totalRefundedV2"
-      }, function (totalRefunded) {
         totalRefunded.add("amount");
         totalRefunded.add("currencyCode");
       });
@@ -7347,24 +6867,12 @@ function query$20(client) {
       paymentDue.add("amount");
       paymentDue.add("currencyCode");
     });
-    root.add("paymentDue", {
-      alias: "paymentDueV2"
-    }, function (paymentDue) {
-      paymentDue.add("amount");
-      paymentDue.add("currencyCode");
-    });
     root.add("webUrl");
     root.add("orderStatusUrl");
     root.add("taxExempt");
     root.add("taxesIncluded");
     root.add("currencyCode");
     root.add("totalTax", function (totalTax) {
-      totalTax.add("amount");
-      totalTax.add("currencyCode");
-    });
-    root.add("totalTax", {
-      alias: "totalTaxV2"
-    }, function (totalTax) {
       totalTax.add("amount");
       totalTax.add("currencyCode");
     });
@@ -7376,19 +6884,7 @@ function query$20(client) {
       subtotalPrice.add("amount");
       subtotalPrice.add("currencyCode");
     });
-    root.add("subtotalPrice", {
-      alias: "subtotalPriceV2"
-    }, function (subtotalPrice) {
-      subtotalPrice.add("amount");
-      subtotalPrice.add("currencyCode");
-    });
     root.add("totalPrice", function (totalPrice) {
-      totalPrice.add("amount");
-      totalPrice.add("currencyCode");
-    });
-    root.add("totalPrice", {
-      alias: "totalPriceV2"
-    }, function (totalPrice) {
       totalPrice.add("amount");
       totalPrice.add("currencyCode");
     });
@@ -7423,12 +6919,6 @@ function query$20(client) {
         price.add("amount");
         price.add("currencyCode");
       });
-      shippingLine.add("price", {
-        alias: "priceV2"
-      }, function (price) {
-        price.add("amount");
-        price.add("currencyCode");
-      });
       shippingLine.add("title");
     });
     root.add("customAttributes", function (customAttributes) {
@@ -7443,19 +6933,7 @@ function query$20(client) {
         subtotalPrice.add("amount");
         subtotalPrice.add("currencyCode");
       });
-      order.add("subtotalPrice", {
-        alias: "subtotalPriceV2"
-      }, function (subtotalPrice) {
-        subtotalPrice.add("amount");
-        subtotalPrice.add("currencyCode");
-      });
       order.add("totalShippingPrice", function (totalShippingPrice) {
-        totalShippingPrice.add("amount");
-        totalShippingPrice.add("currencyCode");
-      });
-      order.add("totalShippingPrice", {
-        alias: "totalShippingPriceV2"
-      }, function (totalShippingPrice) {
         totalShippingPrice.add("amount");
         totalShippingPrice.add("currencyCode");
       });
@@ -7463,30 +6941,12 @@ function query$20(client) {
         totalTax.add("amount");
         totalTax.add("currencyCode");
       });
-      order.add("totalTax", {
-        alias: "totalTaxV2"
-      }, function (totalTax) {
-        totalTax.add("amount");
-        totalTax.add("currencyCode");
-      });
       order.add("totalPrice", function (totalPrice) {
-        totalPrice.add("amount");
-        totalPrice.add("currencyCode");
-      });
-      order.add("totalPrice", {
-        alias: "totalPriceV2"
-      }, function (totalPrice) {
         totalPrice.add("amount");
         totalPrice.add("currencyCode");
       });
       order.add("currencyCode");
       order.add("totalRefunded", function (totalRefunded) {
-        totalRefunded.add("amount");
-        totalRefunded.add("currencyCode");
-      });
-      order.add("totalRefunded", {
-        alias: "totalRefundedV2"
-      }, function (totalRefunded) {
         totalRefunded.add("amount");
         totalRefunded.add("currencyCode");
       });
@@ -7736,24 +7196,12 @@ function query$21(client) {
       paymentDue.add("amount");
       paymentDue.add("currencyCode");
     });
-    root.add("paymentDue", {
-      alias: "paymentDueV2"
-    }, function (paymentDue) {
-      paymentDue.add("amount");
-      paymentDue.add("currencyCode");
-    });
     root.add("webUrl");
     root.add("orderStatusUrl");
     root.add("taxExempt");
     root.add("taxesIncluded");
     root.add("currencyCode");
     root.add("totalTax", function (totalTax) {
-      totalTax.add("amount");
-      totalTax.add("currencyCode");
-    });
-    root.add("totalTax", {
-      alias: "totalTaxV2"
-    }, function (totalTax) {
       totalTax.add("amount");
       totalTax.add("currencyCode");
     });
@@ -7765,19 +7213,7 @@ function query$21(client) {
       subtotalPrice.add("amount");
       subtotalPrice.add("currencyCode");
     });
-    root.add("subtotalPrice", {
-      alias: "subtotalPriceV2"
-    }, function (subtotalPrice) {
-      subtotalPrice.add("amount");
-      subtotalPrice.add("currencyCode");
-    });
     root.add("totalPrice", function (totalPrice) {
-      totalPrice.add("amount");
-      totalPrice.add("currencyCode");
-    });
-    root.add("totalPrice", {
-      alias: "totalPriceV2"
-    }, function (totalPrice) {
       totalPrice.add("amount");
       totalPrice.add("currencyCode");
     });
@@ -7812,12 +7248,6 @@ function query$21(client) {
         price.add("amount");
         price.add("currencyCode");
       });
-      shippingLine.add("price", {
-        alias: "priceV2"
-      }, function (price) {
-        price.add("amount");
-        price.add("currencyCode");
-      });
       shippingLine.add("title");
     });
     root.add("customAttributes", function (customAttributes) {
@@ -7832,19 +7262,7 @@ function query$21(client) {
         subtotalPrice.add("amount");
         subtotalPrice.add("currencyCode");
       });
-      order.add("subtotalPrice", {
-        alias: "subtotalPriceV2"
-      }, function (subtotalPrice) {
-        subtotalPrice.add("amount");
-        subtotalPrice.add("currencyCode");
-      });
       order.add("totalShippingPrice", function (totalShippingPrice) {
-        totalShippingPrice.add("amount");
-        totalShippingPrice.add("currencyCode");
-      });
-      order.add("totalShippingPrice", {
-        alias: "totalShippingPriceV2"
-      }, function (totalShippingPrice) {
         totalShippingPrice.add("amount");
         totalShippingPrice.add("currencyCode");
       });
@@ -7852,30 +7270,12 @@ function query$21(client) {
         totalTax.add("amount");
         totalTax.add("currencyCode");
       });
-      order.add("totalTax", {
-        alias: "totalTaxV2"
-      }, function (totalTax) {
-        totalTax.add("amount");
-        totalTax.add("currencyCode");
-      });
       order.add("totalPrice", function (totalPrice) {
-        totalPrice.add("amount");
-        totalPrice.add("currencyCode");
-      });
-      order.add("totalPrice", {
-        alias: "totalPriceV2"
-      }, function (totalPrice) {
         totalPrice.add("amount");
         totalPrice.add("currencyCode");
       });
       order.add("currencyCode");
       order.add("totalRefunded", function (totalRefunded) {
-        totalRefunded.add("amount");
-        totalRefunded.add("currencyCode");
-      });
-      order.add("totalRefunded", {
-        alias: "totalRefundedV2"
-      }, function (totalRefunded) {
         totalRefunded.add("amount");
         totalRefunded.add("currencyCode");
       });
@@ -8126,24 +7526,12 @@ function query$22(client) {
       paymentDue.add("amount");
       paymentDue.add("currencyCode");
     });
-    root.add("paymentDue", {
-      alias: "paymentDueV2"
-    }, function (paymentDue) {
-      paymentDue.add("amount");
-      paymentDue.add("currencyCode");
-    });
     root.add("webUrl");
     root.add("orderStatusUrl");
     root.add("taxExempt");
     root.add("taxesIncluded");
     root.add("currencyCode");
     root.add("totalTax", function (totalTax) {
-      totalTax.add("amount");
-      totalTax.add("currencyCode");
-    });
-    root.add("totalTax", {
-      alias: "totalTaxV2"
-    }, function (totalTax) {
       totalTax.add("amount");
       totalTax.add("currencyCode");
     });
@@ -8155,19 +7543,7 @@ function query$22(client) {
       subtotalPrice.add("amount");
       subtotalPrice.add("currencyCode");
     });
-    root.add("subtotalPrice", {
-      alias: "subtotalPriceV2"
-    }, function (subtotalPrice) {
-      subtotalPrice.add("amount");
-      subtotalPrice.add("currencyCode");
-    });
     root.add("totalPrice", function (totalPrice) {
-      totalPrice.add("amount");
-      totalPrice.add("currencyCode");
-    });
-    root.add("totalPrice", {
-      alias: "totalPriceV2"
-    }, function (totalPrice) {
       totalPrice.add("amount");
       totalPrice.add("currencyCode");
     });
@@ -8202,12 +7578,6 @@ function query$22(client) {
         price.add("amount");
         price.add("currencyCode");
       });
-      shippingLine.add("price", {
-        alias: "priceV2"
-      }, function (price) {
-        price.add("amount");
-        price.add("currencyCode");
-      });
       shippingLine.add("title");
     });
     root.add("customAttributes", function (customAttributes) {
@@ -8222,19 +7592,7 @@ function query$22(client) {
         subtotalPrice.add("amount");
         subtotalPrice.add("currencyCode");
       });
-      order.add("subtotalPrice", {
-        alias: "subtotalPriceV2"
-      }, function (subtotalPrice) {
-        subtotalPrice.add("amount");
-        subtotalPrice.add("currencyCode");
-      });
       order.add("totalShippingPrice", function (totalShippingPrice) {
-        totalShippingPrice.add("amount");
-        totalShippingPrice.add("currencyCode");
-      });
-      order.add("totalShippingPrice", {
-        alias: "totalShippingPriceV2"
-      }, function (totalShippingPrice) {
         totalShippingPrice.add("amount");
         totalShippingPrice.add("currencyCode");
       });
@@ -8242,30 +7600,12 @@ function query$22(client) {
         totalTax.add("amount");
         totalTax.add("currencyCode");
       });
-      order.add("totalTax", {
-        alias: "totalTaxV2"
-      }, function (totalTax) {
-        totalTax.add("amount");
-        totalTax.add("currencyCode");
-      });
       order.add("totalPrice", function (totalPrice) {
-        totalPrice.add("amount");
-        totalPrice.add("currencyCode");
-      });
-      order.add("totalPrice", {
-        alias: "totalPriceV2"
-      }, function (totalPrice) {
         totalPrice.add("amount");
         totalPrice.add("currencyCode");
       });
       order.add("currencyCode");
       order.add("totalRefunded", function (totalRefunded) {
-        totalRefunded.add("amount");
-        totalRefunded.add("currencyCode");
-      });
-      order.add("totalRefunded", {
-        alias: "totalRefundedV2"
-      }, function (totalRefunded) {
         totalRefunded.add("amount");
         totalRefunded.add("currencyCode");
       });
@@ -8516,24 +7856,12 @@ function query$23(client) {
       paymentDue.add("amount");
       paymentDue.add("currencyCode");
     });
-    root.add("paymentDue", {
-      alias: "paymentDueV2"
-    }, function (paymentDue) {
-      paymentDue.add("amount");
-      paymentDue.add("currencyCode");
-    });
     root.add("webUrl");
     root.add("orderStatusUrl");
     root.add("taxExempt");
     root.add("taxesIncluded");
     root.add("currencyCode");
     root.add("totalTax", function (totalTax) {
-      totalTax.add("amount");
-      totalTax.add("currencyCode");
-    });
-    root.add("totalTax", {
-      alias: "totalTaxV2"
-    }, function (totalTax) {
       totalTax.add("amount");
       totalTax.add("currencyCode");
     });
@@ -8545,19 +7873,7 @@ function query$23(client) {
       subtotalPrice.add("amount");
       subtotalPrice.add("currencyCode");
     });
-    root.add("subtotalPrice", {
-      alias: "subtotalPriceV2"
-    }, function (subtotalPrice) {
-      subtotalPrice.add("amount");
-      subtotalPrice.add("currencyCode");
-    });
     root.add("totalPrice", function (totalPrice) {
-      totalPrice.add("amount");
-      totalPrice.add("currencyCode");
-    });
-    root.add("totalPrice", {
-      alias: "totalPriceV2"
-    }, function (totalPrice) {
       totalPrice.add("amount");
       totalPrice.add("currencyCode");
     });
@@ -8592,12 +7908,6 @@ function query$23(client) {
         price.add("amount");
         price.add("currencyCode");
       });
-      shippingLine.add("price", {
-        alias: "priceV2"
-      }, function (price) {
-        price.add("amount");
-        price.add("currencyCode");
-      });
       shippingLine.add("title");
     });
     root.add("customAttributes", function (customAttributes) {
@@ -8612,19 +7922,7 @@ function query$23(client) {
         subtotalPrice.add("amount");
         subtotalPrice.add("currencyCode");
       });
-      order.add("subtotalPrice", {
-        alias: "subtotalPriceV2"
-      }, function (subtotalPrice) {
-        subtotalPrice.add("amount");
-        subtotalPrice.add("currencyCode");
-      });
       order.add("totalShippingPrice", function (totalShippingPrice) {
-        totalShippingPrice.add("amount");
-        totalShippingPrice.add("currencyCode");
-      });
-      order.add("totalShippingPrice", {
-        alias: "totalShippingPriceV2"
-      }, function (totalShippingPrice) {
         totalShippingPrice.add("amount");
         totalShippingPrice.add("currencyCode");
       });
@@ -8632,30 +7930,12 @@ function query$23(client) {
         totalTax.add("amount");
         totalTax.add("currencyCode");
       });
-      order.add("totalTax", {
-        alias: "totalTaxV2"
-      }, function (totalTax) {
-        totalTax.add("amount");
-        totalTax.add("currencyCode");
-      });
       order.add("totalPrice", function (totalPrice) {
-        totalPrice.add("amount");
-        totalPrice.add("currencyCode");
-      });
-      order.add("totalPrice", {
-        alias: "totalPriceV2"
-      }, function (totalPrice) {
         totalPrice.add("amount");
         totalPrice.add("currencyCode");
       });
       order.add("currencyCode");
       order.add("totalRefunded", function (totalRefunded) {
-        totalRefunded.add("amount");
-        totalRefunded.add("currencyCode");
-      });
-      order.add("totalRefunded", {
-        alias: "totalRefundedV2"
-      }, function (totalRefunded) {
         totalRefunded.add("amount");
         totalRefunded.add("currencyCode");
       });
@@ -8906,24 +8186,12 @@ function query$24(client) {
       paymentDue.add("amount");
       paymentDue.add("currencyCode");
     });
-    root.add("paymentDue", {
-      alias: "paymentDueV2"
-    }, function (paymentDue) {
-      paymentDue.add("amount");
-      paymentDue.add("currencyCode");
-    });
     root.add("webUrl");
     root.add("orderStatusUrl");
     root.add("taxExempt");
     root.add("taxesIncluded");
     root.add("currencyCode");
     root.add("totalTax", function (totalTax) {
-      totalTax.add("amount");
-      totalTax.add("currencyCode");
-    });
-    root.add("totalTax", {
-      alias: "totalTaxV2"
-    }, function (totalTax) {
       totalTax.add("amount");
       totalTax.add("currencyCode");
     });
@@ -8935,19 +8203,7 @@ function query$24(client) {
       subtotalPrice.add("amount");
       subtotalPrice.add("currencyCode");
     });
-    root.add("subtotalPrice", {
-      alias: "subtotalPriceV2"
-    }, function (subtotalPrice) {
-      subtotalPrice.add("amount");
-      subtotalPrice.add("currencyCode");
-    });
     root.add("totalPrice", function (totalPrice) {
-      totalPrice.add("amount");
-      totalPrice.add("currencyCode");
-    });
-    root.add("totalPrice", {
-      alias: "totalPriceV2"
-    }, function (totalPrice) {
       totalPrice.add("amount");
       totalPrice.add("currencyCode");
     });
@@ -8982,12 +8238,6 @@ function query$24(client) {
         price.add("amount");
         price.add("currencyCode");
       });
-      shippingLine.add("price", {
-        alias: "priceV2"
-      }, function (price) {
-        price.add("amount");
-        price.add("currencyCode");
-      });
       shippingLine.add("title");
     });
     root.add("customAttributes", function (customAttributes) {
@@ -9002,19 +8252,7 @@ function query$24(client) {
         subtotalPrice.add("amount");
         subtotalPrice.add("currencyCode");
       });
-      order.add("subtotalPrice", {
-        alias: "subtotalPriceV2"
-      }, function (subtotalPrice) {
-        subtotalPrice.add("amount");
-        subtotalPrice.add("currencyCode");
-      });
       order.add("totalShippingPrice", function (totalShippingPrice) {
-        totalShippingPrice.add("amount");
-        totalShippingPrice.add("currencyCode");
-      });
-      order.add("totalShippingPrice", {
-        alias: "totalShippingPriceV2"
-      }, function (totalShippingPrice) {
         totalShippingPrice.add("amount");
         totalShippingPrice.add("currencyCode");
       });
@@ -9022,30 +8260,12 @@ function query$24(client) {
         totalTax.add("amount");
         totalTax.add("currencyCode");
       });
-      order.add("totalTax", {
-        alias: "totalTaxV2"
-      }, function (totalTax) {
-        totalTax.add("amount");
-        totalTax.add("currencyCode");
-      });
       order.add("totalPrice", function (totalPrice) {
-        totalPrice.add("amount");
-        totalPrice.add("currencyCode");
-      });
-      order.add("totalPrice", {
-        alias: "totalPriceV2"
-      }, function (totalPrice) {
         totalPrice.add("amount");
         totalPrice.add("currencyCode");
       });
       order.add("currencyCode");
       order.add("totalRefunded", function (totalRefunded) {
-        totalRefunded.add("amount");
-        totalRefunded.add("currencyCode");
-      });
-      order.add("totalRefunded", {
-        alias: "totalRefundedV2"
-      }, function (totalRefunded) {
         totalRefunded.add("amount");
         totalRefunded.add("currencyCode");
       });

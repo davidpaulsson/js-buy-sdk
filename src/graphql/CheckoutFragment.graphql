@@ -27,20 +27,12 @@ fragment CheckoutFragment on Checkout {
     amount
     currencyCode
   }
-  paymentDueV2: paymentDue {
-    amount
-    currencyCode
-  }
   webUrl
   orderStatusUrl
   taxExempt
   taxesIncluded
   currencyCode
   totalTax {
-    amount
-    currencyCode
-  }
-  totalTaxV2: totalTax {
     amount
     currencyCode
   }
@@ -52,15 +44,7 @@ fragment CheckoutFragment on Checkout {
     amount
     currencyCode
   }
-  subtotalPriceV2: subtotalPrice {
-    amount
-    currencyCode
-  }
   totalPrice {
-    amount
-    currencyCode
-  }
-  totalPriceV2: totalPrice {
     amount
     currencyCode
   }
@@ -91,10 +75,6 @@ fragment CheckoutFragment on Checkout {
       amount
       currencyCode
     }
-    priceV2: price {
-      amount
-      currencyCode
-    }
     title
   }
   customAttributes {
@@ -109,15 +89,7 @@ fragment CheckoutFragment on Checkout {
       amount
       currencyCode
     }
-    subtotalPriceV2: subtotalPrice {
-      amount
-      currencyCode
-    }
     totalShippingPrice {
-      amount
-      currencyCode
-    }
-    totalShippingPriceV2: totalShippingPrice {
       amount
       currencyCode
     }
@@ -125,15 +97,7 @@ fragment CheckoutFragment on Checkout {
       amount
       currencyCode
     }
-    totalTaxV2: totalTax {
-      amount
-      currencyCode
-    }
     totalPrice {
-      amount
-      currencyCode
-    }
-    totalPriceV2: totalPrice {
       amount
       currencyCode
     }
@@ -142,15 +106,11 @@ fragment CheckoutFragment on Checkout {
       amount
       currencyCode
     }
-    totalRefundedV2: totalRefunded{
-      amount
-      currencyCode
-    }
     customerUrl
     shippingAddress {
       ...MailingAddressFragment
     }
-    lineItems (first: 250) {
+    lineItems(first: 250) {
       pageInfo {
         hasNextPage
         hasPreviousPage
@@ -171,7 +131,7 @@ fragment CheckoutFragment on Checkout {
       }
     }
   }
-  lineItems (first: 250) {
+  lineItems(first: 250) {
     pageInfo {
       hasNextPage
       hasPreviousPage
