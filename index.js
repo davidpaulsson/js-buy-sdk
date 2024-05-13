@@ -4376,6 +4376,10 @@ function query$12(client) {
             customAttributes.add("key");
             customAttributes.add("value");
           });
+          node.add("unitPrice", function (unitPrice) {
+            unitPrice.add("amount");
+            unitPrice.add("currencyCode");
+          });
           node.add("discountAllocations", function (discountAllocations) {
             discountAllocations.add("allocatedAmount", function (allocatedAmount) {
               allocatedAmount.add("amount");
@@ -4695,6 +4699,10 @@ function query$13(client) {
           node.add("customAttributes", function (customAttributes) {
             customAttributes.add("key");
             customAttributes.add("value");
+          });
+          node.add("unitPrice", function (unitPrice) {
+            unitPrice.add("amount");
+            unitPrice.add("currencyCode");
           });
           node.add("discountAllocations", function (discountAllocations) {
             discountAllocations.add("allocatedAmount", function (allocatedAmount) {
@@ -5024,6 +5032,10 @@ function query$14(client) {
           node.add("customAttributes", function (customAttributes) {
             customAttributes.add("key");
             customAttributes.add("value");
+          });
+          node.add("unitPrice", function (unitPrice) {
+            unitPrice.add("amount");
+            unitPrice.add("currencyCode");
           });
           node.add("discountAllocations", function (discountAllocations) {
             discountAllocations.add("allocatedAmount", function (allocatedAmount) {
@@ -5355,6 +5367,10 @@ function query$15(client) {
             customAttributes.add("key");
             customAttributes.add("value");
           });
+          node.add("unitPrice", function (unitPrice) {
+            unitPrice.add("amount");
+            unitPrice.add("currencyCode");
+          });
           node.add("discountAllocations", function (discountAllocations) {
             discountAllocations.add("allocatedAmount", function (allocatedAmount) {
               allocatedAmount.add("amount");
@@ -5680,6 +5696,10 @@ function query$16(client) {
           node.add("customAttributes", function (customAttributes) {
             customAttributes.add("key");
             customAttributes.add("value");
+          });
+          node.add("unitPrice", function (unitPrice) {
+            unitPrice.add("amount");
+            unitPrice.add("currencyCode");
           });
           node.add("discountAllocations", function (discountAllocations) {
             discountAllocations.add("allocatedAmount", function (allocatedAmount) {
@@ -6007,6 +6027,10 @@ function query$17(client) {
           node.add("customAttributes", function (customAttributes) {
             customAttributes.add("key");
             customAttributes.add("value");
+          });
+          node.add("unitPrice", function (unitPrice) {
+            unitPrice.add("amount");
+            unitPrice.add("currencyCode");
           });
           node.add("discountAllocations", function (discountAllocations) {
             discountAllocations.add("allocatedAmount", function (allocatedAmount) {
@@ -6338,6 +6362,10 @@ function query$18(client) {
             customAttributes.add("key");
             customAttributes.add("value");
           });
+          node.add("unitPrice", function (unitPrice) {
+            unitPrice.add("amount");
+            unitPrice.add("currencyCode");
+          });
           node.add("discountAllocations", function (discountAllocations) {
             discountAllocations.add("allocatedAmount", function (allocatedAmount) {
               allocatedAmount.add("amount");
@@ -6668,6 +6696,10 @@ function query$19(client) {
             customAttributes.add("key");
             customAttributes.add("value");
           });
+          node.add("unitPrice", function (unitPrice) {
+            unitPrice.add("amount");
+            unitPrice.add("currencyCode");
+          });
           node.add("discountAllocations", function (discountAllocations) {
             discountAllocations.add("allocatedAmount", function (allocatedAmount) {
               allocatedAmount.add("amount");
@@ -6997,6 +7029,10 @@ function query$20(client) {
             customAttributes.add("key");
             customAttributes.add("value");
           });
+          node.add("unitPrice", function (unitPrice) {
+            unitPrice.add("amount");
+            unitPrice.add("currencyCode");
+          });
           node.add("discountAllocations", function (discountAllocations) {
             discountAllocations.add("allocatedAmount", function (allocatedAmount) {
               allocatedAmount.add("amount");
@@ -7325,6 +7361,10 @@ function query$21(client) {
           node.add("customAttributes", function (customAttributes) {
             customAttributes.add("key");
             customAttributes.add("value");
+          });
+          node.add("unitPrice", function (unitPrice) {
+            unitPrice.add("amount");
+            unitPrice.add("currencyCode");
           });
           node.add("discountAllocations", function (discountAllocations) {
             discountAllocations.add("allocatedAmount", function (allocatedAmount) {
@@ -7656,6 +7696,10 @@ function query$22(client) {
             customAttributes.add("key");
             customAttributes.add("value");
           });
+          node.add("unitPrice", function (unitPrice) {
+            unitPrice.add("amount");
+            unitPrice.add("currencyCode");
+          });
           node.add("discountAllocations", function (discountAllocations) {
             discountAllocations.add("allocatedAmount", function (allocatedAmount) {
               allocatedAmount.add("amount");
@@ -7986,6 +8030,10 @@ function query$23(client) {
             customAttributes.add("key");
             customAttributes.add("value");
           });
+          node.add("unitPrice", function (unitPrice) {
+            unitPrice.add("amount");
+            unitPrice.add("currencyCode");
+          });
           node.add("discountAllocations", function (discountAllocations) {
             discountAllocations.add("allocatedAmount", function (allocatedAmount) {
               allocatedAmount.add("amount");
@@ -8315,6 +8363,10 @@ function query$24(client) {
           node.add("customAttributes", function (customAttributes) {
             customAttributes.add("key");
             customAttributes.add("value");
+          });
+          node.add("unitPrice", function (unitPrice) {
+            unitPrice.add("amount");
+            unitPrice.add("currencyCode");
           });
           node.add("discountAllocations", function (discountAllocations) {
             discountAllocations.add("allocatedAmount", function (allocatedAmount) {
@@ -8917,6 +8969,7 @@ var CheckoutLineItem = {
     "id": "ID",
     "quantity": "Int",
     "title": "String",
+    "unitPrice": "MoneyV2",
     "variant": "ProductVariant"
   },
   "implementsNode": true

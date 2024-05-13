@@ -149,6 +149,10 @@ fragment CheckoutFragment on Checkout {
           key
           value
         }
+        unitPrice {
+          amount
+          currencyCode
+        }
         discountAllocations {
           allocatedAmount {
             amount
