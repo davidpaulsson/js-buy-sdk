@@ -1820,15 +1820,10 @@ camelcase@^4.1.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-4.1.0.tgz#d545635be1e33c542649c69173e5de6acfae34dd"
   integrity sha1-1UVjW+HjPFQmScaRc+Xeas+uNN0=
 
-caniuse-lite@^1.0.30000718:
-  version "1.0.30000733"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000733.tgz#ebfc48254117cc0c66197a4536cb4397a6cfbccd"
-  integrity sha1-6/xIJUEXzAxmGXpFNstDl6bPvM0=
-
-caniuse-lite@^1.0.30001251:
-  version "1.0.30001252"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001252.tgz#cb16e4e3dafe948fc4a9bb3307aea054b912019a"
-  integrity sha512-I56jhWDGMtdILQORdusxBOH+Nl/KgQSdDmpJezYddnAkVOmnoU8zwjTV9xAjMIYxr0iPreEAVylCGcmHCjfaOw==
+caniuse-lite@^1.0.30000718, caniuse-lite@^1.0.30001251:
+  version "1.0.30001617"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001617.tgz"
+  integrity sha512-mLyjzNI9I+Pix8zwcrpxEbGlfqOkF9kM3ptzmKNw5tizSyYwMe+nGLTqMK9cO+0E+Bh6TsBxNAaHWEM8xwSsmA==
 
 capture-stack-trace@^1.0.0:
   version "1.0.0"
