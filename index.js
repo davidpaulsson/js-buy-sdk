@@ -2431,24 +2431,13 @@ function query(client) {
       price.add("amount");
       price.add("currencyCode");
     });
-    root.add("price", {
-      alias: "priceV2"
-    }, function (price) {
-      price.add("amount");
-      price.add("currencyCode");
-    });
     root.add("weight");
     root.add("availableForSale", {
       alias: "available"
     });
     root.add("sku");
+    root.add("currentlyNotInStock");
     root.add("compareAtPrice", function (compareAtPrice) {
-      compareAtPrice.add("amount");
-      compareAtPrice.add("currencyCode");
-    });
-    root.add("compareAtPrice", {
-      alias: "compareAtPriceV2"
-    }, function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
     });
@@ -2558,24 +2547,13 @@ function query$1(client) {
       price.add("amount");
       price.add("currencyCode");
     });
-    root.add("price", {
-      alias: "priceV2"
-    }, function (price) {
-      price.add("amount");
-      price.add("currencyCode");
-    });
     root.add("weight");
     root.add("availableForSale", {
       alias: "available"
     });
     root.add("sku");
+    root.add("currentlyNotInStock");
     root.add("compareAtPrice", function (compareAtPrice) {
-      compareAtPrice.add("amount");
-      compareAtPrice.add("currencyCode");
-    });
-    root.add("compareAtPrice", {
-      alias: "compareAtPriceV2"
-    }, function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
     });
@@ -2688,24 +2666,13 @@ function query$2(client) {
       price.add("amount");
       price.add("currencyCode");
     });
-    root.add("price", {
-      alias: "priceV2"
-    }, function (price) {
-      price.add("amount");
-      price.add("currencyCode");
-    });
     root.add("weight");
     root.add("availableForSale", {
       alias: "available"
     });
     root.add("sku");
+    root.add("currentlyNotInStock");
     root.add("compareAtPrice", function (compareAtPrice) {
-      compareAtPrice.add("amount");
-      compareAtPrice.add("currencyCode");
-    });
-    root.add("compareAtPrice", {
-      alias: "compareAtPriceV2"
-    }, function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
     });
@@ -2827,24 +2794,13 @@ function query$3(client) {
       price.add("amount");
       price.add("currencyCode");
     });
-    root.add("price", {
-      alias: "priceV2"
-    }, function (price) {
-      price.add("amount");
-      price.add("currencyCode");
-    });
     root.add("weight");
     root.add("availableForSale", {
       alias: "available"
     });
     root.add("sku");
+    root.add("currentlyNotInStock");
     root.add("compareAtPrice", function (compareAtPrice) {
-      compareAtPrice.add("amount");
-      compareAtPrice.add("currencyCode");
-    });
-    root.add("compareAtPrice", {
-      alias: "compareAtPriceV2"
-    }, function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
     });
@@ -2954,24 +2910,13 @@ function query$4(client) {
       price.add("amount");
       price.add("currencyCode");
     });
-    root.add("price", {
-      alias: "priceV2"
-    }, function (price) {
-      price.add("amount");
-      price.add("currencyCode");
-    });
     root.add("weight");
     root.add("availableForSale", {
       alias: "available"
     });
     root.add("sku");
+    root.add("currentlyNotInStock");
     root.add("compareAtPrice", function (compareAtPrice) {
-      compareAtPrice.add("amount");
-      compareAtPrice.add("currencyCode");
-    });
-    root.add("compareAtPrice", {
-      alias: "compareAtPriceV2"
-    }, function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
     });
@@ -3269,24 +3214,13 @@ function query$6(client) {
       price.add("amount");
       price.add("currencyCode");
     });
-    root.add("price", {
-      alias: "priceV2"
-    }, function (price) {
-      price.add("amount");
-      price.add("currencyCode");
-    });
     root.add("weight");
     root.add("availableForSale", {
       alias: "available"
     });
     root.add("sku");
+    root.add("currentlyNotInStock");
     root.add("compareAtPrice", function (compareAtPrice) {
-      compareAtPrice.add("amount");
-      compareAtPrice.add("currencyCode");
-    });
-    root.add("compareAtPrice", {
-      alias: "compareAtPriceV2"
-    }, function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
     });
@@ -3481,24 +3415,13 @@ function query$8(client) {
       price.add("amount");
       price.add("currencyCode");
     });
-    root.add("price", {
-      alias: "priceV2"
-    }, function (price) {
-      price.add("amount");
-      price.add("currencyCode");
-    });
     root.add("weight");
     root.add("availableForSale", {
       alias: "available"
     });
     root.add("sku");
+    root.add("currentlyNotInStock");
     root.add("compareAtPrice", function (compareAtPrice) {
-      compareAtPrice.add("amount");
-      compareAtPrice.add("currencyCode");
-    });
-    root.add("compareAtPrice", {
-      alias: "compareAtPriceV2"
-    }, function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
     });
@@ -3651,24 +3574,13 @@ function query$9(client) {
       price.add("amount");
       price.add("currencyCode");
     });
-    root.add("price", {
-      alias: "priceV2"
-    }, function (price) {
-      price.add("amount");
-      price.add("currencyCode");
-    });
     root.add("weight");
     root.add("availableForSale", {
       alias: "available"
     });
     root.add("sku");
+    root.add("currentlyNotInStock");
     root.add("compareAtPrice", function (compareAtPrice) {
-      compareAtPrice.add("amount");
-      compareAtPrice.add("currencyCode");
-    });
-    root.add("compareAtPrice", {
-      alias: "compareAtPriceV2"
-    }, function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
     });
@@ -4103,24 +4015,13 @@ function query$12(client) {
       price.add("amount");
       price.add("currencyCode");
     });
-    root.add("price", {
-      alias: "priceV2"
-    }, function (price) {
-      price.add("amount");
-      price.add("currencyCode");
-    });
     root.add("weight");
     root.add("availableForSale", {
       alias: "available"
     });
     root.add("sku");
+    root.add("currentlyNotInStock");
     root.add("compareAtPrice", function (compareAtPrice) {
-      compareAtPrice.add("amount");
-      compareAtPrice.add("currencyCode");
-    });
-    root.add("compareAtPrice", {
-      alias: "compareAtPriceV2"
-    }, function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
     });
@@ -4418,24 +4319,13 @@ function query$13(client) {
       price.add("amount");
       price.add("currencyCode");
     });
-    root.add("price", {
-      alias: "priceV2"
-    }, function (price) {
-      price.add("amount");
-      price.add("currencyCode");
-    });
     root.add("weight");
     root.add("availableForSale", {
       alias: "available"
     });
     root.add("sku");
+    root.add("currentlyNotInStock");
     root.add("compareAtPrice", function (compareAtPrice) {
-      compareAtPrice.add("amount");
-      compareAtPrice.add("currencyCode");
-    });
-    root.add("compareAtPrice", {
-      alias: "compareAtPriceV2"
-    }, function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
     });
@@ -4751,24 +4641,13 @@ function query$14(client) {
       price.add("amount");
       price.add("currencyCode");
     });
-    root.add("price", {
-      alias: "priceV2"
-    }, function (price) {
-      price.add("amount");
-      price.add("currencyCode");
-    });
     root.add("weight");
     root.add("availableForSale", {
       alias: "available"
     });
     root.add("sku");
+    root.add("currentlyNotInStock");
     root.add("compareAtPrice", function (compareAtPrice) {
-      compareAtPrice.add("amount");
-      compareAtPrice.add("currencyCode");
-    });
-    root.add("compareAtPrice", {
-      alias: "compareAtPriceV2"
-    }, function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
     });
@@ -5085,24 +4964,13 @@ function query$15(client) {
       price.add("amount");
       price.add("currencyCode");
     });
-    root.add("price", {
-      alias: "priceV2"
-    }, function (price) {
-      price.add("amount");
-      price.add("currencyCode");
-    });
     root.add("weight");
     root.add("availableForSale", {
       alias: "available"
     });
     root.add("sku");
+    root.add("currentlyNotInStock");
     root.add("compareAtPrice", function (compareAtPrice) {
-      compareAtPrice.add("amount");
-      compareAtPrice.add("currencyCode");
-    });
-    root.add("compareAtPrice", {
-      alias: "compareAtPriceV2"
-    }, function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
     });
@@ -5419,24 +5287,13 @@ function query$16(client) {
       price.add("amount");
       price.add("currencyCode");
     });
-    root.add("price", {
-      alias: "priceV2"
-    }, function (price) {
-      price.add("amount");
-      price.add("currencyCode");
-    });
     root.add("weight");
     root.add("availableForSale", {
       alias: "available"
     });
     root.add("sku");
+    root.add("currentlyNotInStock");
     root.add("compareAtPrice", function (compareAtPrice) {
-      compareAtPrice.add("amount");
-      compareAtPrice.add("currencyCode");
-    });
-    root.add("compareAtPrice", {
-      alias: "compareAtPriceV2"
-    }, function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
     });
@@ -5746,24 +5603,13 @@ function query$17(client) {
       price.add("amount");
       price.add("currencyCode");
     });
-    root.add("price", {
-      alias: "priceV2"
-    }, function (price) {
-      price.add("amount");
-      price.add("currencyCode");
-    });
     root.add("weight");
     root.add("availableForSale", {
       alias: "available"
     });
     root.add("sku");
+    root.add("currentlyNotInStock");
     root.add("compareAtPrice", function (compareAtPrice) {
-      compareAtPrice.add("amount");
-      compareAtPrice.add("currencyCode");
-    });
-    root.add("compareAtPrice", {
-      alias: "compareAtPriceV2"
-    }, function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
     });
@@ -6080,24 +5926,13 @@ function query$18(client) {
       price.add("amount");
       price.add("currencyCode");
     });
-    root.add("price", {
-      alias: "priceV2"
-    }, function (price) {
-      price.add("amount");
-      price.add("currencyCode");
-    });
     root.add("weight");
     root.add("availableForSale", {
       alias: "available"
     });
     root.add("sku");
+    root.add("currentlyNotInStock");
     root.add("compareAtPrice", function (compareAtPrice) {
-      compareAtPrice.add("amount");
-      compareAtPrice.add("currencyCode");
-    });
-    root.add("compareAtPrice", {
-      alias: "compareAtPriceV2"
-    }, function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
     });
@@ -6414,24 +6249,13 @@ function query$19(client) {
       price.add("amount");
       price.add("currencyCode");
     });
-    root.add("price", {
-      alias: "priceV2"
-    }, function (price) {
-      price.add("amount");
-      price.add("currencyCode");
-    });
     root.add("weight");
     root.add("availableForSale", {
       alias: "available"
     });
     root.add("sku");
+    root.add("currentlyNotInStock");
     root.add("compareAtPrice", function (compareAtPrice) {
-      compareAtPrice.add("amount");
-      compareAtPrice.add("currencyCode");
-    });
-    root.add("compareAtPrice", {
-      alias: "compareAtPriceV2"
-    }, function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
     });
@@ -6747,24 +6571,13 @@ function query$20(client) {
       price.add("amount");
       price.add("currencyCode");
     });
-    root.add("price", {
-      alias: "priceV2"
-    }, function (price) {
-      price.add("amount");
-      price.add("currencyCode");
-    });
     root.add("weight");
     root.add("availableForSale", {
       alias: "available"
     });
     root.add("sku");
+    root.add("currentlyNotInStock");
     root.add("compareAtPrice", function (compareAtPrice) {
-      compareAtPrice.add("amount");
-      compareAtPrice.add("currencyCode");
-    });
-    root.add("compareAtPrice", {
-      alias: "compareAtPriceV2"
-    }, function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
     });
@@ -7080,24 +6893,13 @@ function query$21(client) {
       price.add("amount");
       price.add("currencyCode");
     });
-    root.add("price", {
-      alias: "priceV2"
-    }, function (price) {
-      price.add("amount");
-      price.add("currencyCode");
-    });
     root.add("weight");
     root.add("availableForSale", {
       alias: "available"
     });
     root.add("sku");
+    root.add("currentlyNotInStock");
     root.add("compareAtPrice", function (compareAtPrice) {
-      compareAtPrice.add("amount");
-      compareAtPrice.add("currencyCode");
-    });
-    root.add("compareAtPrice", {
-      alias: "compareAtPriceV2"
-    }, function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
     });
@@ -7414,24 +7216,13 @@ function query$22(client) {
       price.add("amount");
       price.add("currencyCode");
     });
-    root.add("price", {
-      alias: "priceV2"
-    }, function (price) {
-      price.add("amount");
-      price.add("currencyCode");
-    });
     root.add("weight");
     root.add("availableForSale", {
       alias: "available"
     });
     root.add("sku");
+    root.add("currentlyNotInStock");
     root.add("compareAtPrice", function (compareAtPrice) {
-      compareAtPrice.add("amount");
-      compareAtPrice.add("currencyCode");
-    });
-    root.add("compareAtPrice", {
-      alias: "compareAtPriceV2"
-    }, function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
     });
@@ -7748,24 +7539,13 @@ function query$23(client) {
       price.add("amount");
       price.add("currencyCode");
     });
-    root.add("price", {
-      alias: "priceV2"
-    }, function (price) {
-      price.add("amount");
-      price.add("currencyCode");
-    });
     root.add("weight");
     root.add("availableForSale", {
       alias: "available"
     });
     root.add("sku");
+    root.add("currentlyNotInStock");
     root.add("compareAtPrice", function (compareAtPrice) {
-      compareAtPrice.add("amount");
-      compareAtPrice.add("currencyCode");
-    });
-    root.add("compareAtPrice", {
-      alias: "compareAtPriceV2"
-    }, function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
     });
@@ -8082,24 +7862,13 @@ function query$24(client) {
       price.add("amount");
       price.add("currencyCode");
     });
-    root.add("price", {
-      alias: "priceV2"
-    }, function (price) {
-      price.add("amount");
-      price.add("currencyCode");
-    });
     root.add("weight");
     root.add("availableForSale", {
       alias: "available"
     });
     root.add("sku");
+    root.add("currentlyNotInStock");
     root.add("compareAtPrice", function (compareAtPrice) {
-      compareAtPrice.add("amount");
-      compareAtPrice.add("currencyCode");
-    });
-    root.add("compareAtPrice", {
-      alias: "compareAtPriceV2"
-    }, function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
     });
@@ -9472,6 +9241,7 @@ var ProductVariant = {
   "fieldBaseTypes": {
     "availableForSale": "Boolean",
     "compareAtPrice": "MoneyV2",
+    "currentlyNotInStock": "Boolean",
     "id": "ID",
     "image": "Image",
     "price": "MoneyV2",
